@@ -1,0 +1,198 @@
+.portfolio-images{
+  width: 100%;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.detailed-skill-row{
+  margin: 50px auto;
+}
+
+.portfolio-video{
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 10px;
+}
+
+td{
+  width: 25%;
+}
+
+.links-dark{
+  color: #565F69;
+  text-decoration: none;
+}
+
+.links-light{
+  color: #565F69;
+  text-decoration: none;
+}
+
+.links-dark:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.links-light:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+@media (min-width: 900px){
+  .portfolio-video{
+    width: 664px;
+    heigh: 374px;
+    margin: 10px;
+  }
+
+  .test{
+    color: red;
+  }
+
+  #mobile-portfolio{
+    background-color: #565F69;
+    color: #FFF;
+  }
+}
+
+.credit{
+  margin-top: 10px;
+  font-size: 0.5rem;
+}
+
+/* Containers */
+body{
+  text-align: center;
+}
+
+hr{
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  background-color: #565F69;
+  color: #565F69;
+}
+
+.container-fluid{
+  padding: 3% 7%;
+}
+
+.light{
+  background-color: #FFF;
+  color: #343A40;
+}
+
+.dark{
+  background-color: #212529;
+  color: #FFF;
+}
+
+.dark2{
+  background-color: #565F69;
+  color: #FFF;
+}
+
+
+/* Haedings */
+h1{
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 50px auto;
+}
+
+
+
+#title{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.navbar{
+  margin-bottom: 10px;
+}
+
+.subtitle{
+  padding-bottom: 50px;
+}
+
+
+#summary{
+
+}
+
+
+#work{
+  padding-top: 30px;
+}
+
+
+#education{
+
+}
+
+
+#skills{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.light .carousel-control-next,
+.light .carousel-control-prev {
+    filter: invert(100%);
+}
+
+.light .carousel-indicators{
+  filter: invert(100%);
+}
+
+.left{
+  float: left;
+  margin-right: 30px
+}
+
+.right{
+  float: right;
+  margin-left: 30px
+}
+
+.skill-icons{
+  width: 30%;
+}
+
+.skill-row{
+  width: 50%;
+  height: 200px;
+  margin: 100px auto;
+  text-align: left;
+}
+
+#skills h2{
+  margin: 0;
+}
+
+
+#footer{
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+  color: #9A9D9A;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+  margin: 20px;
+}
