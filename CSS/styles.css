@@ -4,15 +4,32 @@
   margin: 10px;
 }
 
+.portfolio-video{
+  width: 100%;
+  height: 100%
+  margin: 50px auto;
+  padding: 0 10px;
+}
+
 .detailed-skill-row{
   margin: 50px auto;
 }
 
-.portfolio-video{
-  width: 100%;
-  margin: 50px auto;
-  padding: 0 10px;
+@media (max-width: 500px){
+  table{
+    font-size: 0.8rem;
+  }
+
+  #carouselSkills{
+    font-size: 0.7rem;
+  }
+
+  .name{
+    font-size: 350%;
+  }
 }
+
+
 
 td{
   width: 25%;
