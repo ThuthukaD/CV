@@ -38,6 +38,12 @@
     padding: 0 10px;
   }
 
+  .portfolio-images{
+    width: 95%;
+    border-radius: 5%;
+    margin: 10px;
+  }
+
   .ss-pc{
     content: 'PC App Dev';
   }
